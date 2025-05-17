@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Digital Shield</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="assets/DigitalShield_Logo.png">
+    </head>
+
+    <header>
+        <img src="assets/DigitalShield_HorizontalNoLogo.png" alt="Digital Shield Logo">
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a class="button" href="index.html">Home</a></li>
+                <li><a class="button" href="services.html">Services</a></li>
+                <li><a class="button" href="reports.html">Reports</a></li>
+                <li><a class="button" href="tools.html">Tools</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Reports</h1>
+
+            <div class="content-block">
+                <h3>Broken Access Control & Token Abuse</h3>
+                <p><strong>Summary:</strong> Identified Broken Access Control via leaked tokens enabling privilege escalation.</p>
+                <p><strong>Key Impact:</strong> Direct user impersonation, exposure of internal admin APIs.</p>
+                <p><strong>Techniques Used:</strong> Burp Suite manual testing, token tracing, endpoint chaining.</p>
+                <p><a class="button" href="reports/public_bug_report.pdf" target="_blank">View Redacted Report</a></p>
+            </div>
+            <div class="content-block">
+                <h3>Host-Based Bypass & IDOR Abuse</h3>
+                <p><strong>Summary:</strong> Discovered bypass of host-based access control through direct IP targeting and IDOR vulnerabilities in user profile enumeration.</p>
+                <p><strong>Key Impact:</strong> Public exposure of internal dev mirrors and predictable user account enumeration.</p>
+                <p><strong>Techniques Used:</strong> DNS resolution misconfig exploitation, user ID manipulation via Burp Suite.</p>
+                <p><a class="button" href="" target="_blank">View Redacted Report (coming soon)</a></p>
+            </div>
+            <div class="content-block">
+                <h3>Snort3 Elastic Stack Dashboard</h3>
+                <p><strong>Summary:</strong> A case-study on network intrusion detection system dashboard using Snort3 and Elastic Stack.</p>
+                <p><a class="button" href="reports/snort3_dataAnalysis.pdf" target="_blank">View Case-Study</a></p>
+            </div>
+
+        </article>
+    </section>
+
+    <footer class="modern-footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="assets/DigitalShield_Horizontal.png" alt="Digital Shield Logo">
+            <p>&copy; 2025 Digital Shield. All Rights Reserved.</p>
+        </div>
+        <div class="footer-contact">
+            <h4>Contact Me</h4>
+            <p><a href="mailto:contact@digitalshield.com"><i class="fa fa-envelope"></i> contact@digitalshield.com</a></p>
+            <p><a href="https://linkedin.com/in/josh-sullivan529" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a></p>
+            <p><a href="https://github.com/yeetbix529" target="_blank"><i class="fa fa-github"></i> Github</a></p>
+        </div>
+    </div>
+</footer>
